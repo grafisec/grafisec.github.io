@@ -1,0 +1,269 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Grafis</title>
+  <subtitle>Blog Hacking, WriteUps, CTFs</subtitle>
+  <updated>2023-06-14T17:39:20-04:00</updated>
+  <author>
+    <name>grafis</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="es-ES"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
+  <rights> © 2023 grafis </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Epsilon HTB Write-up</title>
+    <link href="http://localhost:4000/posts/Epsilon/" rel="alternate" type="text/html" title="Epsilon HTB Write-up" />
+    <published>2023-03-04T00:00:00-05:00</published>
+  
+    <updated>2023-03-04T00:00:00-05:00</updated>
+  
+    <id>http://localhost:4000/posts/Epsilon/</id>
+    <content src="http://localhost:4000/posts/Epsilon/" />
+    <author>
+      <name>grafis</name>
+    </author>
+
+  
+    
+    <category term="Write up" />
+    
+    <category term="Hack The Box" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+Resumen
+
+Saludos, en esta oportunidad vamos a resolver la máquina de Hack The Box llamada Epsilon, la cual tiene una dificultad media. Para lograr vulnerarla realizaremos lo siguiente:
+
+
+  Enumeración del sistema.
+  Obtención de repositorio git.
+  Enumeración de AWS.
+  Descubrimiento de funciones lambda del servidor.
+  Creación de un JWT.
+  Bypass del panel de login.
+  SSTI.
+  Abuso de symlin...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>DarkHole 2 VulnHub Write-up</title>
+    <link href="http://localhost:4000/posts/DarkHole_2/" rel="alternate" type="text/html" title="DarkHole 2 VulnHub Write-up" />
+    <published>2023-02-22T00:00:00-05:00</published>
+  
+    <updated>2023-02-22T00:00:00-05:00</updated>
+  
+    <id>http://localhost:4000/posts/DarkHole_2/</id>
+    <content src="http://localhost:4000/posts/DarkHole_2/" />
+    <author>
+      <name>grafis</name>
+    </author>
+
+  
+    
+    <category term="Write up" />
+    
+    <category term="VulnHub" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Resumen
+
+Saludos, en esta oportunidad vamos a resolver la máquina de VulnHub llamada DarkHole 2, la cual tiene una dificultad easy. Para lograr vulnerarla realizaremos lo siguiente:
+
+
+  Reconocimiento del sistema.
+  Enumeración de proyecto Git.
+  SQLi.
+  Local Port Forwarding utilizando ssh.
+  Abuso de servidor web.
+  Información fitrada (bash history).
+  Abuso de privilegio de Sudoers.
+
+
+Recon...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>DarkHole 1 VulnHub Write-up</title>
+    <link href="http://localhost:4000/posts/DarkHole_1/" rel="alternate" type="text/html" title="DarkHole 1 VulnHub Write-up" />
+    <published>2023-02-20T00:00:00-05:00</published>
+  
+    <updated>2023-02-20T00:00:00-05:00</updated>
+  
+    <id>http://localhost:4000/posts/DarkHole_1/</id>
+    <content src="http://localhost:4000/posts/DarkHole_1/" />
+    <author>
+      <name>grafis</name>
+    </author>
+
+  
+    
+    <category term="Write up" />
+    
+    <category term="VulnHub" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Resumen
+
+Saludos, en esta oportunidad vamos a resolver la máquina de VulnHub llamada DarkHole 1, la cual tiene una dificultad easy. Para lograr vulnerarla realizaremos lo siguiente:
+
+
+  Enumeración del sistema.
+  Abuso de mala implementación de sesiones.
+  Subida de archivo malicioso php a la web (extension filter bypass).
+  Abuso de binario SUID (path hijacking).
+  Abuso de archivo SUID.
+  Aut...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Chaos HTB Write-up</title>
+    <link href="http://localhost:4000/posts/Chaos/" rel="alternate" type="text/html" title="Chaos HTB Write-up" />
+    <published>2023-02-17T00:00:00-05:00</published>
+  
+    <updated>2023-02-17T00:00:00-05:00</updated>
+  
+    <id>http://localhost:4000/posts/Chaos/</id>
+    <content src="http://localhost:4000/posts/Chaos/" />
+    <author>
+      <name>grafis</name>
+    </author>
+
+  
+    
+    <category term="Write up" />
+    
+    <category term="Hack The Box" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+Resumen
+
+Saludos, en esta oportunidad vamos a resolver la máquina de Hack The Box llamada Chaos, la cual tiene una dificultad media. Para lograr vulnerarla realizaremos lo siguiente:
+
+
+  Fuzzing de directorios web.
+  Adivinar credenciales demasiado débiles.
+  Utilización de claws-mail (abusando de email).
+  Decrypt de un mensaje.
+  Restricted bash bypass.
+  Extracción de credenciales de una s...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>GoodGames HTB Write-up</title>
+    <link href="http://localhost:4000/posts/GoodGames/" rel="alternate" type="text/html" title="GoodGames HTB Write-up" />
+    <published>2023-02-16T00:00:00-05:00</published>
+  
+    <updated>2023-02-16T00:00:00-05:00</updated>
+  
+    <id>http://localhost:4000/posts/GoodGames/</id>
+    <content src="http://localhost:4000/posts/GoodGames/" />
+    <author>
+      <name>grafis</name>
+    </author>
+
+  
+    
+    <category term="Write up" />
+    
+    <category term="Hack The Box" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+Resumen
+
+Saludos, en esta oportunidad vamos a resolver la máquina de Hack The Box llamada GoodGames, la cual tiene una dificultad easy. Para lograr vulnerarla realizaremos lo siguiente:
+
+
+  SQLi basada en error.
+  SSTI.
+  Escaneo de puertos manual.
+  Escape de contenedor.
+  Utilización de contenedor para escalar privilegios.
+
+
+Reconocimiento y Enumeración
+
+En primer lugar, se comprueba la cor...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
