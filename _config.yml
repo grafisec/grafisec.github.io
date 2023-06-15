@@ -19,12 +19,12 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Grafis                          # the main title
+title: Grafis                   # the main title
 
-tagline: Blog Hacking, Write Ups y Laboratorios   # it will display as the sub-title
+tagline: Hacking y Write Ups   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Blog Hacking, WriteUps, CTFs y Laboratorios
+  Hacking y Write Ups
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://grafisec.github.io'
