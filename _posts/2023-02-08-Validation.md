@@ -1,7 +1,7 @@
 ---
 title: Validation HTB Write-up
 categories: [Write up, Hack The Box]
-tags: [Enumeration, SQLi, Web, Scripting, Autpwn, Linux, Easy]
+tags: [Enumeration, SQLi, Web, Scripting, Autopwn, Linux, Easy]
 pin: false
 math: true
 mermaid: true

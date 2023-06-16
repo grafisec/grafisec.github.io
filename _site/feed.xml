@@ -3,8 +3,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://localhost:4000/</id>
   <title>Grafis</title>
-  <subtitle>Blog Hacking, WriteUps, CTFs</subtitle>
-  <updated>2023-06-14T18:43:57-04:00</updated>
+  <subtitle>Hacking y Write Ups</subtitle>
+  <updated>2023-06-16T00:51:13-04:00</updated>
   <author>
     <name>grafis</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,57 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Symfonos VulnHub Write-up</title>
+    <link href="http://localhost:4000/posts/symfonos/" rel="alternate" type="text/html" title="Symfonos VulnHub Write-up" />
+    <published>2023-06-15T00:00:00-04:00</published>
+  
+    <updated>2023-06-15T00:00:00-04:00</updated>
+  
+    <id>http://localhost:4000/posts/symfonos/</id>
+    <content src="http://localhost:4000/posts/symfonos/" />
+    <author>
+      <name>grafis</name>
+    </author>
+
+  
+    
+    <category term="Write up" />
+    
+    <category term="VulnHub" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Resumen
+
+Hola! en esta oportunidad vamos a resolver la máquina de VulnHub llamada Symfonos, la cual tiene una dificultad easy. Para lograr vulnerarla realizaremos lo siguiente:
+
+
+  Reconocimiento del sistema.
+  Enumeración de smb.
+  Enumeración de wordpress.
+  Explotación de LFI.
+  Utilización de mail para RCE.
+  Abuso de SUID (path hijacking).
+
+
+Reconocimiento y Enumeración
+
+Escaneamos nuestro...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -207,58 +258,6 @@ Saludos, en esta oportunidad vamos a resolver la máquina de Hack The Box llamad
   Decrypt de un mensaje.
   Restricted bash bypass.
   Extracción de credenciales de una s...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>GoodGames HTB Write-up</title>
-    <link href="http://localhost:4000/posts/GoodGames/" rel="alternate" type="text/html" title="GoodGames HTB Write-up" />
-    <published>2023-02-16T00:00:00-05:00</published>
-  
-    <updated>2023-02-16T00:00:00-05:00</updated>
-  
-    <id>http://localhost:4000/posts/GoodGames/</id>
-    <content src="http://localhost:4000/posts/GoodGames/" />
-    <author>
-      <name>grafis</name>
-    </author>
-
-  
-    
-    <category term="Write up" />
-    
-    <category term="Hack The Box" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-
-Resumen
-
-Saludos, en esta oportunidad vamos a resolver la máquina de Hack The Box llamada GoodGames, la cual tiene una dificultad easy. Para lograr vulnerarla realizaremos lo siguiente:
-
-
-  SQLi basada en error.
-  SSTI.
-  Escaneo de puertos manual.
-  Escape de contenedor.
-  Utilización de contenedor para escalar privilegios.
-
-
-Reconocimiento y Enumeración
-
-En primer lugar, se comprueba la cor...
     </summary>
   
 
