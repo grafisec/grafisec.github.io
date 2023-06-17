@@ -499,6 +499,6 @@ if __name__ == '__main__':
     shell = listen(1234,timeout=20).wait_for_connection()
     shell.interactive()
 ```
-¡Listo!, terminamos la automatización de la intrusión.
+¡Listo! Terminamos la automatización de la intrusión.
 
 Nos vemos, hasta la próxima.

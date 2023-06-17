@@ -460,6 +460,6 @@ cat root.txt
 5b27d5f28150913f91baba
 ```
 
-¡Listo!, hemos terminado la máquina.
+¡Listo! Hemos terminado la máquina.
 
 Nos vemos, hasta la próxima.
