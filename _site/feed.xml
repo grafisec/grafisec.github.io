@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Grafis</title>
   <subtitle>Hacking y Write Ups</subtitle>
-  <updated>2023-06-16T00:51:13-04:00</updated>
+  <updated>2023-06-22T18:43:25-04:00</updated>
   <author>
     <name>grafis</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,57 @@
 
   
   <entry>
+    <title>Election 1 VulnHub Write-up</title>
+    <link href="http://localhost:4000/posts/Election/" rel="alternate" type="text/html" title="Election 1 VulnHub Write-up" />
+    <published>2023-06-22T00:00:00-04:00</published>
+  
+    <updated>2023-06-22T00:00:00-04:00</updated>
+  
+    <id>http://localhost:4000/posts/Election/</id>
+    <content src="http://localhost:4000/posts/Election/" />
+    <author>
+      <name>grafis</name>
+    </author>
+
+  
+    
+    <category term="Write up" />
+    
+    <category term="VulnHub" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Resumen
+
+¡Hola! En esta oportunidad vamos a resolver la máquina de VulnHub llamada Election, la cual tiene una dificultad media. Para lograr vulnerarla realizaremos lo siguiente:
+
+
+  Reconocimiento del sistema.
+  Fuzzing para encontrar los directorios web.
+  Credenciales expuestas en binario.
+  Explotación de SQLi con sqlmap.
+  Abuso de phpMyAdmin para subir archivo malicioso a la web.
+  Abuso ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Symfonos VulnHub Write-up</title>
     <link href="http://localhost:4000/posts/symfonos/" rel="alternate" type="text/html" title="Symfonos VulnHub Write-up" />
     <published>2023-06-15T00:00:00-04:00</published>
   
-    <updated>2023-06-15T00:00:00-04:00</updated>
+    <updated>2023-06-16T21:26:49-04:00</updated>
   
     <id>http://localhost:4000/posts/symfonos/</id>
     <content src="http://localhost:4000/posts/symfonos/" />
@@ -50,7 +96,7 @@
 
       Resumen
 
-Hola! en esta oportunidad vamos a resolver la máquina de VulnHub llamada Symfonos, la cual tiene una dificultad easy. Para lograr vulnerarla realizaremos lo siguiente:
+¡Hola! En esta oportunidad vamos a resolver la máquina de VulnHub llamada Symfonos, la cual tiene una dificultad easy. Para lograr vulnerarla realizaremos lo siguiente:
 
 
   Reconocimiento del sistema.
@@ -63,7 +109,7 @@ Hola! en esta oportunidad vamos a resolver la máquina de VulnHub llamada Symfon
 
 Reconocimiento y Enumeración
 
-Escaneamos nuestro...
+Escaneamos nuestr...
     </summary>
   
 
@@ -75,7 +121,7 @@ Escaneamos nuestro...
     <link href="http://localhost:4000/posts/Epsilon/" rel="alternate" type="text/html" title="Epsilon HTB Write-up" />
     <published>2023-03-04T00:00:00-05:00</published>
   
-    <updated>2023-03-04T00:00:00-05:00</updated>
+    <updated>2023-06-16T21:09:48-04:00</updated>
   
     <id>http://localhost:4000/posts/Epsilon/</id>
     <content src="http://localhost:4000/posts/Epsilon/" />
@@ -125,7 +171,7 @@ Saludos, en esta oportunidad vamos a resolver la máquina de Hack The Box llamad
     <link href="http://localhost:4000/posts/DarkHole_2/" rel="alternate" type="text/html" title="DarkHole 2 VulnHub Write-up" />
     <published>2023-02-22T00:00:00-05:00</published>
   
-    <updated>2023-02-22T00:00:00-05:00</updated>
+    <updated>2023-06-16T21:09:48-04:00</updated>
   
     <id>http://localhost:4000/posts/DarkHole_2/</id>
     <content src="http://localhost:4000/posts/DarkHole_2/" />
@@ -175,7 +221,7 @@ Recon...
     <link href="http://localhost:4000/posts/DarkHole_1/" rel="alternate" type="text/html" title="DarkHole 1 VulnHub Write-up" />
     <published>2023-02-20T00:00:00-05:00</published>
   
-    <updated>2023-02-20T00:00:00-05:00</updated>
+    <updated>2023-06-16T21:09:48-04:00</updated>
   
     <id>http://localhost:4000/posts/DarkHole_1/</id>
     <content src="http://localhost:4000/posts/DarkHole_1/" />
@@ -210,54 +256,6 @@ Saludos, en esta oportunidad vamos a resolver la máquina de VulnHub llamada Dar
   Abuso de binario SUID (path hijacking).
   Abuso de archivo SUID.
   Aut...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Chaos HTB Write-up</title>
-    <link href="http://localhost:4000/posts/Chaos/" rel="alternate" type="text/html" title="Chaos HTB Write-up" />
-    <published>2023-02-17T00:00:00-05:00</published>
-  
-    <updated>2023-02-17T00:00:00-05:00</updated>
-  
-    <id>http://localhost:4000/posts/Chaos/</id>
-    <content src="http://localhost:4000/posts/Chaos/" />
-    <author>
-      <name>grafis</name>
-    </author>
-
-  
-    
-    <category term="Write up" />
-    
-    <category term="Hack The Box" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-
-Resumen
-
-Saludos, en esta oportunidad vamos a resolver la máquina de Hack The Box llamada Chaos, la cual tiene una dificultad media. Para lograr vulnerarla realizaremos lo siguiente:
-
-
-  Fuzzing de directorios web.
-  Adivinar credenciales demasiado débiles.
-  Utilización de claws-mail (abusando de email).
-  Decrypt de un mensaje.
-  Restricted bash bypass.
-  Extracción de credenciales de una s...
     </summary>
   
 
