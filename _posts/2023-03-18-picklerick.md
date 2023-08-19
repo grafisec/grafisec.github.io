@@ -1,5 +1,5 @@
 ---
-title: Pikle Rick TryHackMe Write-up
+title: Pickle Rick TryHackMe Write-up
 categories: [Write up, TryHackMe]
 date: 2023-02-09
 tags: [Enumeration, Web, Information leakage, SUDO, Autopwn, Scripting, Fuzzing, Linux, Easy]

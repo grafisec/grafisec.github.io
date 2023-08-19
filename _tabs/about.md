@@ -15,6 +15,7 @@ order: 4
 ---------
 
 - Ingeniería Civil en Informática y Telecomunicaciones.
+- eJPT - eLearnSecurity
 
 ## Experiencia
 

@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Grafis</title>
   <subtitle>Hacking y Write Ups</subtitle>
-  <updated>2023-06-22T18:43:25-04:00</updated>
+  <updated>2023-08-19T19:38:33-04:00</updated>
   <author>
     <name>grafis</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,50 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Mi experencia con la eJPTv2 y consejos para aprobarla</title>
+    <link href="http://localhost:4000/posts/Experiencia_ejpt/" rel="alternate" type="text/html" title="Mi experencia con la eJPTv2 y consejos para aprobarla" />
+    <published>2023-08-19T00:00:00-04:00</published>
+  
+    <updated>2023-08-19T00:00:00-04:00</updated>
+  
+    <id>http://localhost:4000/posts/Experiencia_ejpt/</id>
+    <content src="http://localhost:4000/posts/Experiencia_ejpt/" />
+    <author>
+      <name>grafis</name>
+    </author>
+
+  
+    
+    <category term="Hacking" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      ¡Hola! En esta oportunidad les contaré mi experiencia con la certificación eJPT, con el objetivo de que sirva de ayuda para todos aquellos que quieran rendir la certificación y estén un poco perdidos.
+
+
+
+Mi experiencia
+
+Para resumir, mi experiencia fue buena y consecuente con los temas del curso oficial, aunque tuve algunos problemas técnicos.
+
+Hablemos antes un poco respecto al examen:
+
+Como s...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -210,52 +254,6 @@ Saludos, en esta oportunidad vamos a resolver la máquina de VulnHub llamada Dar
 
 
 Recon...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>DarkHole 1 VulnHub Write-up</title>
-    <link href="http://localhost:4000/posts/DarkHole_1/" rel="alternate" type="text/html" title="DarkHole 1 VulnHub Write-up" />
-    <published>2023-02-20T00:00:00-05:00</published>
-  
-    <updated>2023-06-16T21:09:48-04:00</updated>
-  
-    <id>http://localhost:4000/posts/DarkHole_1/</id>
-    <content src="http://localhost:4000/posts/DarkHole_1/" />
-    <author>
-      <name>grafis</name>
-    </author>
-
-  
-    
-    <category term="Write up" />
-    
-    <category term="VulnHub" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Resumen
-
-Saludos, en esta oportunidad vamos a resolver la máquina de VulnHub llamada DarkHole 1, la cual tiene una dificultad easy. Para lograr vulnerarla realizaremos lo siguiente:
-
-
-  Enumeración del sistema.
-  Abuso de mala implementación de sesiones.
-  Subida de archivo malicioso php a la web (extension filter bypass).
-  Abuso de binario SUID (path hijacking).
-  Abuso de archivo SUID.
-  Aut...
     </summary>
   
 
